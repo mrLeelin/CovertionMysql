@@ -1,4 +1,6 @@
-# Sql Code
+# Sql
 
 
-SELECT_ALL_TABLE ='SELECT TABLE_NAME FROM infomation_schema.colums  table_schema = \'{}\''
+SELECT_TABLE = 'select * from  %s '
+
+SELECT_TABLE_WHERE_UID = 'select * from %s where uid = %s'
