@@ -5,7 +5,12 @@ import Sql
 
 
 
+
 def __connect_mysql():
+    """
+    链接数据库
+    :return:
+    """
     return pymysql.connect(
         host='localhost',
         user='root',
